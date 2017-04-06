@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.ts"],"names":["hello","nom","user","console","log"],"mappings":"AAAA,QAAAA,OAAgBC,GACd,MAAO,YAAcA,EAGvB,GAAIC,MAAO,QAEXC,SAAQC,IAAIJ,MAAME","file":"../tp1/app.js","sourcesContent":["function hello (nom : string) {\n  return 'Bonjour, ' + nom;\n}\n\nvar user = 'Zenika';\n\nconsole.log(hello(user));\n"]}

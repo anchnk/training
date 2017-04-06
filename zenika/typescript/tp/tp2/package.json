@@ -1,0 +1,21 @@
+{
+  "name": "formation-zenika-typescript-tp2",
+  "version": "1.0.0",
+  "description": "TP2 de la formation typescript via zenika",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && ava tests"
+  },
+  "keywords": [
+    "typescript",
+    "formation",
+    "zenika"
+  ],
+  "author": "Olivier Martin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/sinon": "^2.1.1",
+    "ava": "^0.18.2",
+    "sinon": "^2.1.0"
+  }
+}

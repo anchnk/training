@@ -1,0 +1,26 @@
+{
+  "name": "TP1",
+  "version": "0.0.1",
+  "description": "TP1 de la formation typescript de Zenika",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "lint": "gulp lint",
+    "test": "tsc && ava",
+    "build": "gulp build"
+  },
+  "author": "Zenika",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "7.0.10",
+    "ava": "0.18.2",
+    "gulp": "3.9.1",
+    "gulp-sourcemaps": "2.4.1",
+    "gulp-tslint": "7.1.0",
+    "gulp-typescript": "3.1.6",
+    "gulp-uglify": "2.1.2",
+    "sinon": "2.1.0",
+    "tslint": "4.5.1",
+    "typescript": "2.2.1"
+  }
+}
